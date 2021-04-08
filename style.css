@@ -30,7 +30,7 @@ a:hover {
 
 #bloc-5-cta p
 {
-
+    width: 80%;
     font-size: 17px;
 }
 .bloc {
@@ -763,6 +763,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
