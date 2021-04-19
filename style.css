@@ -1230,7 +1230,6 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-btn>
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
     background-color: #eee
 }
 
@@ -1302,9 +1301,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-btn>
     line-height: 20px
 }
 
-.navbar-brand:focus, .navbar-brand:hover {
-    text-decoration: none
-}
+
 
 .navbar-brand>img {
     display: block
@@ -1329,9 +1326,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-btn>
     border-radius: 4px
 }
 
-.navbar-toggle:focus {
-    outline: 0
-}
+    
 
 .navbar-toggle .icon-bar {
     display: block;
@@ -1478,7 +1473,6 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-btn>
 
 a.label:focus, a.label:hover {
     color: #fff;
-    text-decoration: none;
     cursor: pointer
 }
 
@@ -1547,7 +1541,7 @@ body {
 
 a, button {
     transition: all .3s ease-in-out;
-    outline: 0!important
+    outline: 1;
 }
 
 a:hover {
@@ -1798,7 +1792,7 @@ a:hover {
 }
 
 button {
-    outline: 0!important
+    outline: 1;
 }
 
 .btn-rd {
@@ -2054,7 +2048,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url(https://julgeff.github.io/JulienGeffriaud_4_01042021/img/image-de-presentation.png)
+    background-image: url(https://julgeff.github.io/JulienGeffriaud_4_01042021/img/image-de-presentation.jpg)
 }
 
 @media (max-width:1024px) {
