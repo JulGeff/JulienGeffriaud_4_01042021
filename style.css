@@ -1952,6 +1952,7 @@ h3 {
     color: #333!important
 }
 
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -1987,7 +1988,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, .7);
+    background-color: rgba(174, 27, 0, .8);
     padding: 40px 40px 40px 40px
 }
 
@@ -2005,7 +2006,8 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #ae1b00
+    background-color: #ae1b00;
+   
 }
 
 .tc-white {
