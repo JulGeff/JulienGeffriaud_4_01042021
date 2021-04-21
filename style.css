@@ -1925,8 +1925,9 @@ blockquote {
     margin: 50px auto auto auto;
 }
 
-.adress
-{line-height: 2.1rem;}
+.adress {
+    line-height: 2.1rem;
+}
 
 h2 {
     font-size: 22px;
@@ -1999,7 +2000,6 @@ h3 {
 .btn-atomic-tangerine:hover {
     background: #fff;
     color: #ae1b00!important;
-    border: 1px solid black;
 }
 
 .ltc-white {
@@ -2081,6 +2081,10 @@ h3 {
 }
 
 @media (max-width:767px) {
+    .bloc-lg {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .cta-hero {
         padding-left: 5%;
         padding-right: 5%;
@@ -2099,6 +2103,9 @@ h3 {
     h1, h2, h3, h4, h5, h6, p {
         padding-left: 10px!important;
         padding-right: 10px!important
+    }
+    h1 {
+        font-size: 2.5rem;
     }
     .b-parallax {
         background-attachment: scroll
@@ -2156,7 +2163,6 @@ h3 {
         padding-left: 0;
         padding-right: 0
     }
-    
     .bloc-md, .bloc-sm {
         padding-left: 0;
         padding-right: 0
