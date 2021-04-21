@@ -253,7 +253,7 @@ h2, h3, h4, h5, h6, p, figcaption {
     color: black;
 }
 
-#bloc-3-what-i-do h2, #bloc-3-what-i-do p, #bloc-5-cta h2 {
+#bloc-3-what-i-do h2, #bloc-3-what-i-do p, #bloc-5-cta h2, #bloc-5 h2, #bloc-5 p {
     color: white
 }
 
@@ -261,7 +261,7 @@ h2, h3, h4, h5, h6, p, figcaption {
     border-radius: 15px;
 }
 
-#bloc-3-what-i-do h3 {
+#bloc-3-what-i-do h3, #bloc-5 h3 {
     text-transform: none;
     color: white;
     font-weight: 500;
@@ -2096,7 +2096,10 @@ h3 {
 }
 
 @media (max-width:767px) {
-    
+    .cta-hero {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     .bg-presentation {
         background-image: unset
     }
