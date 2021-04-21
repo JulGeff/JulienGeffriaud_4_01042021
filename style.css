@@ -37,7 +37,6 @@ b {
 }
 
 .h1, h1 {
-  
     font-size: 2.5em
 }
 
@@ -258,7 +257,7 @@ h2, h3, h4, h5, h6, p, figcaption {
     color: white
 }
 
-.black-background{
+.black-background {
     border-radius: 15px;
 }
 
@@ -267,7 +266,6 @@ h2, h3, h4, h5, h6, p, figcaption {
     color: white;
     font-weight: 500;
     font-size: 1.8rem;
-    
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
@@ -279,8 +277,6 @@ h2, h3, h4, h5, h6, p, figcaption {
     margin-top: 10px;
     margin-bottom: 10px
 }
-
-
 
 .h2, h2 {
     font-size: 30px
@@ -1689,8 +1685,6 @@ a:hover {
     padding-left: 0
 }
 
-
-
 .navbar {
     margin-bottom: 0;
     z-index: 1
@@ -1946,7 +1940,7 @@ blockquote {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto
+    margin: auto auto auto auto;
 }
 
 h2 {
@@ -2020,7 +2014,7 @@ h3 {
 .btn-atomic-tangerine:hover {
     background: #fff;
     color: #ae1b00!important;
-    border : 1px solid black;
+    border: 1px solid black;
 }
 
 .ltc-white {
@@ -2102,14 +2096,14 @@ h3 {
 }
 
 @media (max-width:767px) {
-
-   
     
     .bg-presentation {
-        background-image:unset
+        background-image: unset
     }
-
-
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative
@@ -2429,7 +2423,6 @@ h3 {
 }
 
 #bloc-2-services h2 {
-
     padding-left: 200px;
     padding-right: 200px;
 }
