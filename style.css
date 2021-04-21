@@ -1569,6 +1569,10 @@ a:hover {
     padding: 40px;
 }
 
+.bloc-lg2 {
+    padding: 0 0 40px 0;
+}
+
 .bloc-md {
     padding: 50px
 }
@@ -2085,6 +2089,11 @@ h3 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .bloc-lg2 {
+        padding: 0 0 40px 0;
+    }
+    
     .cta-hero {
         padding-left: 5%;
         padding-right: 5%;
