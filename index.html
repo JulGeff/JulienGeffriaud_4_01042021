@@ -11,7 +11,7 @@
 		content="Entreprise de webdesign basée à Lyon, la chouette agence vous aide à trouver de nouveaux clients sur internet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -32,11 +32,9 @@
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
 								alt="La Chouette Agence - Entreprise de Webdesign à Lyon" height="40" /></a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
-							data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-								class="icon-bar"></span><span class="icon-bar"></span>
-						</button>
+								<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+									<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+								</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
@@ -146,16 +144,20 @@
 						<div class="col-sm-12">
 							<h2 class="mg-md text-center">
 								Nous souhaitons aider les entreprises de la région lyonnaise à se développer et à
-								connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux
+								connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de
+								nouveaux
 								clients.
 							</h2>
 							<p class="text-center">
 								Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales,
-								qu’elles aient besoin de créer un site web de A à Z ou de donner un coup de jeune à leur site.
-								Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site web,
-								n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beaux et bien
-								structurés, qui seront facilement trouvables sur les moteurs de recherche.<br><a href=#bloc-7
-									class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
+								qu’elles aient besoin de créer un site web de A à Z ou de donner un coup de jeune à leur
+								site.
+								Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site
+								web,
+								n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beaux
+								et bien
+								structurés, qui seront facilement trouvables sur les moteurs de recherche.<br><a
+									href=#bloc-7 class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
 									id="cta-hero2">Contactez notre équipe</a>
 							</p>
 						</div>
@@ -170,8 +172,8 @@
 							<h2>Nous travaillons avec beaucoup de clients,<br>voici nos réalisations.</h2>
 						</div>
 					</div>
-					<div class="row tight-width-whitespace portfolio-row">
-						<div class="col-sm-6">
+					<ul class="row tight-width-whitespace portfolio-row">
+						<li class="col-sm-6">
 							<img src="img/1.jpg" alt="Pile de journaux ouverts"
 								class="img-responsive portfolio-thumb" />
 							<h3 class="mg-md text-center">
@@ -180,8 +182,8 @@
 							<p class="text-center">
 								Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 							</p>
-						</div>
-						<div class="col-sm-6">
+						</li>
+						<li class="col-sm-6">
 							<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Photographe en action" />
 							<h3 class="mg-md text-center">
 								Création d'un site web pour photographes
@@ -189,10 +191,8 @@
 							<p class="text-center">
 								Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 							</p>
-						</div>
-					</div>
-					<div class="row tight-width-whitespace portfolio-row">
-						<div class="col-sm-6">
+						</li>
+						<li class="col-sm-6">
 							<img src="img/3.jpg" class="img-responsive portfolio-thumb"
 								alt="Matériel photo disposé sur une table" />
 							<h3 class="mg-md text-center">
@@ -202,8 +202,8 @@
 								Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les
 								articles de ce voyageur.
 							</p>
-						</div>
-						<div class="col-sm-6">
+						</li>
+						<li class="col-sm-6">
 							<img src="img/4.jpg" class="img-responsive portfolio-thumb"
 								alt="Table de travail pour préparation mariage" />
 							<h3 class="mg-md text-center">
@@ -213,8 +213,8 @@
 								Nous avons travaillé avec cette agence pour créer un site internet permettant la
 								présentation détaillée de leurs prestations.
 							</p>
-						</div>
-					</div>
+						</li>
+					</ul>
 				</div>
 			</section>
 
@@ -278,42 +278,39 @@
 
 		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
-				<div class="row">
-					<div class="col-sm-12">
-						<p class="text-center white adress">
-							<strong>La chouette agence - Agence de web design basée à Lyon</strong><br>
-							2 place Sathonay 69001 Lyon<br>
-							contact@lachouetteagence.com<br>
-							Ouvert de 9h à 18h, du lundi au vendredi<br>
-						</p>
-						<div class="row row-no-gutters social">
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" aria-label="twitter"><span
-											class="fa fa-twitter icon-md"></span></a>
-								</div>
+				<div class="row col-sm-12">
+					<p class="text-center white adress">
+						<strong>La chouette agence - Agence de web design basée à Lyon</strong><br>
+						2 place Sathonay 69001 Lyon<br>
+						contact@lachouetteagence.com<br>
+						Ouvert de 9h à 18h, du lundi au vendredi<br>
+					</p>
+					<ul class="row row-no-gutters social">
+						<li class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label="twitter"><span
+										class="fa fa-twitter icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" aria-label="facebook"><span
-											class="fa fa-facebook icon-md"></span></a>
-								</div>
+						</li>
+						<li class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label="facebook"><span
+										class="fa fa-facebook icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" aria-label="dribble"><span
-											class="fa fa-dribbble icon-md"></span></a>
-								</div>
+						</li>
+						<li class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label="dribble"><span
+										class="fa fa-dribbble icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" aria-label="instagram"><span
-											class="fa fa-instagram icon-md"></span></a>
-								</div>
+						</li>
+						<li class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label="instagram"><span
+										class="fa fa-instagram icon-md"></span></a>
 							</div>
-						</div>
-					</div>
-				</div>
+						</li>
+					</ul>
 			</div>
 		</footer>
 

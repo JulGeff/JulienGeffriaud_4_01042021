@@ -298,12 +298,11 @@ p {
 
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 0;
 }
 
-ul ul {
-    margin-bottom: 0
-}
 
 blockquote {
     padding: 10px 20px;
@@ -1026,6 +1025,10 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .collapse {
     display: none
+}
+
+.collapse.in {
+    display: block
 }
 
 .dropdown {
@@ -2089,11 +2092,9 @@ h3 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
     .bloc-lg2 {
         padding: 0 0 40px 0;
     }
-    
     .cta-hero {
         padding-left: 5%;
         padding-right: 5%;
@@ -2104,6 +2105,7 @@ h3 {
     .social {
         display: flex;
         justify-content: space-evenly;
+        margin: 10px auto auto auto
     }
     .page-container {
         overflow-x: hidden;
@@ -2116,6 +2118,9 @@ h3 {
     h1 {
         font-size: 2.5rem;
     }
+
+ 
+
     .b-parallax {
         background-attachment: scroll
     }
@@ -2422,3 +2427,8 @@ h3 {
     padding-left: 200px;
     padding-right: 200px;
 }
+
+
+
+
+
