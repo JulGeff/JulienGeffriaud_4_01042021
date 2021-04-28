@@ -2079,6 +2079,11 @@ h3 {
 }
 
 @media (max-width:767px) {
+
+    .btn {
+        white-space: normal;
+    }
+
     .texture-paper::before {
         background-size: 0;
     }
