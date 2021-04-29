@@ -236,10 +236,6 @@ h2, h3, h4, h5, h6, p, figcaption {
     color: white
 }
 
-.black-background {
-    border-radius: 15px;
-}
-
 #bloc-3-what-i-do h3, #bloc-5 h3 {
     text-transform: none;
     color: white;
@@ -1972,6 +1968,7 @@ h3 {
     position: relative;
     background-color: rgba(105, 18, 66, 0.65);
     padding: 40px 40px 40px 40px;
+    border-radius: 15px;
 }
 
 .bold-link {
@@ -2079,11 +2076,12 @@ h3 {
 }
 
 @media (max-width:767px) {
-
+    .black-background {
+        border-radius: 0px;
+    }
     .btn {
         white-space: normal;
     }
-
     .texture-paper::before {
         background-size: 0;
     }
